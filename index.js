@@ -4,6 +4,8 @@ const cors = require('cors');
 const mongoose = require('mongoose'); 
 const mongoUrl = `mongodb://${config.db.host}:${config.db.port}/${config.db.name}`;
 
+console.log('Start time: ' + new Date().toLocaleString())
+
 mongoose
 .connect(mongoUrl, {})
 .then(() => {

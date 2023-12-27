@@ -1,7 +1,8 @@
 module.exports = {
     app: {
         //dobra praktyka ustaw w innym pliku, tutaj serwer
-        port: 3000 // standardowy port
+        // port: 3000 // standardowy port
+        port: 3005 // standardowy port
     },
 
     db: {
